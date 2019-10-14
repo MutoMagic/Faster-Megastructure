@@ -1,5 +1,4 @@
 name="Faster Megastructure"
-path="mod/megastructure_build_speed"
 tags={
 	"Technologies"
 }
