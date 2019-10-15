@@ -1,0 +1,154 @@
+@meDuration = 3600
+
+the_more_the_better = {
+	length = @meDuration
+	is_ambition = yes
+	unity_cost_mult = 0.1
+	resources = {
+		category = edicts
+	}
+
+	modifier = {
+		megastructure_build_speed_mult = 0.05
+		country_megastructure_build_cap_add = 10
+		terraform_speed_mult = 1.0
+	}
+	
+	potential = {
+		has_technology = tech_faster_megastructure
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#戴森球
+built_dyson_sphere_again = {
+	length = @meDuration
+	is_ambition = yes
+	unity_cost_mult = 0.1
+	resources = {
+		category = edicts
+	}
+
+	effect = {
+		remove_country_flag = built_dyson_sphere
+	}
+	
+	potential = {
+		has_technology = tech_faster_megastructure
+	}
+	
+	allow = {
+		has_country_flag = built_dyson_sphere
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#物质解压器
+built_matter_decompressor_site_again = {
+	length = @meDuration
+	is_ambition = yes
+	unity_cost_mult = 0.1
+	resources = {
+		category = edicts
+	}
+
+	effect = {
+		remove_country_flag = built_matter_decompressor_site
+	}
+	
+	potential = {
+		has_technology = tech_faster_megastructure
+	}
+	
+	allow = {
+		has_country_flag = built_matter_decompressor_site
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#科学枢纽
+built_think_tank_again = {
+	length = @meDuration
+	is_ambition = yes
+	unity_cost_mult = 0.1
+	resources = {
+		category = edicts
+	}
+
+	effect = {
+		remove_country_flag = built_think_tank
+	}
+	
+	potential = {
+		has_technology = tech_faster_megastructure
+	}
+	
+	allow = {
+		has_country_flag = built_think_tank
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#巨型艺术设施
+built_mega_art_installation_site_again = {
+	length = @meDuration
+	is_ambition = yes
+	unity_cost_mult = 0.1
+	resources = {
+		category = edicts
+	}
+
+	effect = {
+		remove_country_flag = built_mega_art_installation_site
+	}
+	
+	potential = {
+		has_technology = tech_faster_megastructure
+	}
+	
+	allow = {
+		has_country_flag = built_mega_art_installation_site
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#战略指挥中心
+built_strategic_coordination_center_site_again = {
+	length = @meDuration
+	is_ambition = yes
+	unity_cost_mult = 0.1
+	resources = {
+		category = edicts
+	}
+
+	effect = {
+		remove_country_flag = built_strategic_coordination_center_site
+	}
+	
+	potential = {
+		has_technology = tech_faster_megastructure
+	}
+	
+	allow = {
+		has_country_flag = built_strategic_coordination_center_site
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
